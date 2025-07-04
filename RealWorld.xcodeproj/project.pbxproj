@@ -16,6 +16,8 @@
 		071498252E162B9000F54202 /* RealWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071498242E162B9000F54202 /* RealWorldTests.swift */; };
 		0714982F2E162B9000F54202 /* RealWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714982E2E162B9000F54202 /* RealWorldUITests.swift */; };
 		071498312E162B9000F54202 /* RealWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071498302E162B9000F54202 /* RealWorldUITestsLaunchTests.swift */; };
+		071498422E16C3F800F54202 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071498412E16C3F800F54202 /* ARKit.framework */; };
+		071498442E16C42200F54202 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071498432E16C42200F54202 /* SceneKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0714982A2E162B9000F54202 /* RealWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0714982E2E162B9000F54202 /* RealWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealWorldUITests.swift; sourceTree = "<group>"; };
 		071498302E162B9000F54202 /* RealWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		071498412E16C3F800F54202 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		071498432E16C42200F54202 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071498442E16C42200F54202 /* SceneKit.framework in Frameworks */,
+				071498422E16C3F800F54202 /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				071498232E162B9000F54202 /* RealWorldTests */,
 				0714982D2E162B9000F54202 /* RealWorldUITests */,
 				0714980B2E162B8D00F54202 /* Products */,
+				071498402E16C3F800F54202 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,15 @@
 				071498302E162B9000F54202 /* RealWorldUITestsLaunchTests.swift */,
 			);
 			path = RealWorldUITests;
+			sourceTree = "<group>";
+		};
+		071498402E16C3F800F54202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071498432E16C42200F54202 /* SceneKit.framework */,
+				071498412E16C3F800F54202 /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7M5W2438Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RealWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7M5W2438Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RealWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
